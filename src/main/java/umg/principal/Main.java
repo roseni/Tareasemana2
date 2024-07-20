@@ -1,0 +1,16 @@
+package umg.principal;
+
+import umg.principal.PKG_grupo1.circulo;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.printf("");
+
+    circulo a = new circulo();
+    a.cir();
+
+    }
+}
