@@ -1,13 +1,25 @@
 package umg.principal.PKG_grupo2;
-
 import java.util.Scanner;
+
 public class area {
-    public int ar() {
+    public  void piramide(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("INGRESE EL AREA DE UN CIRCULO");
+        System.out.println("INGRESE LA BASE DE SU PIRAMIDE");
         int a = sc.nextInt();
-        int b = a / 2;
-        double c = (2 * 3.1416) * (b);
-        System.out.println("El area del circulo es: " + c);
-        return 0;
+        System.out.println("INGRESE LA ALTURA DE SU PIRAMIDE");
+        int b = sc.nextInt();
+        int c= (a*b)/2;
+        int d = (a+b)/3;
+        System.out.println("EL AREA DE SU PIRAMIDE ES: "+ c);
+        System.out.println("EL VOLUMEN DE SU PIRAMIDE ES: "+ d);
+        System.out.println(" ");
     }
+    public  void tri(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("INGRESE LA BASE DE SU TRIANGULO");
+        int a = sc.nextInt();
+        System.out.println("INGRESE LA ALTURA DE SU TRIANGULO");
+        int b = sc.nextInt();
+        int c= (a*b)/2;
+        System.out.println("EL AREA DE SU TRIANGULO ES: "+ c);
+    }}
